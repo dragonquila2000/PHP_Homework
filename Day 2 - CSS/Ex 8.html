@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ex 8</title>
+	</head>
+	<body>
+		<style type="text/css">
+			body {
+				background-color: #D8DA3D;
+			}
+			ul {
+				list-style: none;
+			}
+			ul li {
+				color: blue;
+			}
+			ul li::before {
+				content: "\2022";
+				color: purple;
+				display: inline-block;
+				width: 1em;
+				margin-left: -1em;
+			}
+			#h1 {
+				color: purple;
+			}
+			#p {
+				color: purple;
+			}
+			#p1 {
+				color: purple;
+			}
+			#div {
+				color: purple;
+			}
+			span {
+				position: relative;
+				top: 5px;
+			}
+			#p2 {
+				margin-top: -15px;
+			}
+		</style>
+		<body>
+			<div>
+				<ul>
+					<li>Home page</li>
+					<li>Musings</li>
+					<li>My towns</li>
+					<li>Links</li>
+				</ul>
+			</div>
+			<h1 id="h1">My first styled page</h1>
+			<p id="p">
+				Welcome to my styles page!
+				<br>
+				<br> It lacks images, but at least it has style. And it has links, even if they don't go anywhere...
+				<br>
+				<br> There should be more here, but I don't know what yet.
+			</p>
+			<div id="div">
+				<i>
+				<p id="p1">Made <span>5</span> April <span>2004</span></p>
+				<p id="p2">by myself</p>
+				</i>
+			</div>
+		</body>
+	</body>
+</html>

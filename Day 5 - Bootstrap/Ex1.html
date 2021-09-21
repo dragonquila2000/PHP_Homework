@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<style type="text/css">
+			.container {
+				width: 25%;
+				margin: 0 auto;
+			}
+			@media(max-width: 767px){
+				.container {
+					width: 100%;
+					margin: 0 auto;
+				}
+				.FN {
+					margin-left: 0;
+				}
+				.LN {
+					margin-left: 2px;
+				}
+				.file {
+					margin-top: 55px;
+				}
+			}
+			.file {
+				position: absolute;
+				top: 397px;
+			}
+		</style>
+		<div class="container">
+			<p>Job Aplliction With Resume Upload</p>
+			<p>Contact Information</p>
+			<div class="row">
+				<div class="col-md-6 col-6 FN">
+					First name <span style="color: red">*</span>
+					<br> <form><input type="text"></form>
+				</div>
+				<div class="col-md-6 col-6 LN">
+					Last name <span style="color: red">*</span>
+					<br> <form><input type="text"></form>
+				</div>
+			</div>
+			<div class="content">
+				Email <span style="color: red">*</span>
+				<br> <form><input type="text" size="47"></form>
+				Phone <span style="color: red">*</span>
+				<br> <form><input type="text" size="47"></form>
+				<br>
+				<span style="font-size: 20px">Position</span>
+				<br>
+				<br>
+				Position you are applying for <span style="color: red">*</span>
+				<br> <form><input type="text" size="47"></form>
+				Resume upload
+				<br> <form><input type="text" size="47"></form>
+				<div class="file"><button><b>Browse...</b></button>No file selected</div>
+				Portfolio website
+				<br> <form><input type="text" size="47"></form>
+				Salary requirement
+				<br> <form><input type="text" size="47"></form>
+				When can you start?
+				<br> <form><input type="text" size="47"></form>
+				Are you willing to relocate?
+				<br>
+				<form>
+					<input type="radio">Yes
+					<br><input type="radio">No
+					<br><input type="radio">Not sure
+				</form>
+				Last company you worked for
+				<br> <form><input type="text" size="47"></form>
+				Comments
+				<br> <textarea cols="50" rows="5"></textarea>
+				<br><form><input type="submit" value="Submit"></form>
+			</div>
+		</div>
+	</body>
+</html>
